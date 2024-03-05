@@ -48,8 +48,12 @@ body{
 
 footer {
 	background-color: #333;
-	color: #fff;
+	color: hsl(0, 0%, 100%);
 	padding: 20px;
 	text-align: center;
 	margin-top: 50px;
+}
+
+#CorElementosFooter{
+    color: rgb(109, 121, 7);
 }
