@@ -21,7 +21,7 @@ img{
 }
 
 p{
-    margin: 100px;
+    margin: 70px;
     font-size: 22px;
 }
 
@@ -30,7 +30,12 @@ a{
 }
 
 ol{
-    margin:100px;
+    margin:80px;
+    font-size: 20px;
+}
+
+ul{
+    margin:80px;
     font-size: 20px;
 }
 
@@ -70,4 +75,8 @@ footer {
     background-color: blue;
     color: white;
     transform: scale(1.2)
+}
+
+span{
+    font-weight: bold;
 }
