@@ -85,3 +85,16 @@ footer {
 span{
     font-weight: bold;
 }
+
+.footerPix{
+    text-align: justify;
+}
+
+.backgroundImage{
+    position: relative;
+    background-image: url(/img/BitcoinMoeda.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
