@@ -14,7 +14,7 @@ h2{
 }
 
 img{
-    width: 400px;
+    width: 500px;
     margin: auto;
     display: block;
     border: 2px solid black;
@@ -22,16 +22,21 @@ img{
 
 p{
     margin: 70px;
-    font-size: 22px;
+    font-size: 30px;
+    margin: 50px 25% 100px 25%;
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a{
-    margin: 100px;
+    margin: 100px 25% 100px 25%;
 }
 
 ol{
     margin:80px;
     font-size: 20px;
+    margin: 2px 25% 0px 25%;
+    text-align:justify;
 }
 
 ul{
@@ -68,13 +73,13 @@ footer {
     border: solid 1px blue;
     border-radius: 20px;
     color: blue;
-    background-color: white;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    background-color: #ffffff;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.7s ease;
 }
 .botao:hover{
     background-color: blue;
     color: white;
-    transform: scale(1.2)
+    transform: scale(1.5)
 }
 
 span{
