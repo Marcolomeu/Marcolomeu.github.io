@@ -24,7 +24,7 @@ p{
     margin: 70px;
     font-size: 30px;
     margin: 50px 25% 100px 25%;
-    text-align:justify;
+    text-align:center;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -35,8 +35,7 @@ a{
 ol{
     margin:80px;
     font-size: 20px;
-    margin: 2px 25% 0px 25%;
-    text-align:justify;
+    margin: 2px 25% 0px 25%;    
 }
 
 ul{
@@ -44,9 +43,7 @@ ul{
     font-size: 20px;
 }
 
-body{
-    background-color: rgb(219, 192, 158);
-}
+
 
 .tesla{
     margin: 50px;
@@ -70,14 +67,14 @@ footer {
 }
 
 .botao{
-    border: solid 1px blue;
+    border: solid 1px rgb(167, 167, 167);
     border-radius: 20px;
-    color: blue;
+    color: rgb(63, 49, 3);
     background-color: #ffffff;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.7s ease;
 }
 .botao:hover{
-    background-color: blue;
+    background-color: rgb(187, 187, 187);
     color: white;
     transform: scale(1.5)
 }
@@ -86,15 +83,22 @@ span{
     font-weight: bold;
 }
 
-.footerPix{
+#footerPix{
     text-align: justify;
+    text-align: center;
 }
 
 .backgroundImage{
     position: relative;
-    background-image: url(/img/BitcoinMoeda.jpg);
+    background-image: url(../img/Fundo.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     margin-bottom: 50px;
+}
+
+.fundo{
+    margin: 0% 15% 0% 15%;
+    background-color: burlywood;
+    text-align: center;
 }
