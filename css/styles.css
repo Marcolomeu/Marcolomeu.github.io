@@ -12,6 +12,10 @@ h2{
     margin: 50px;
     font-family: Courier;
 }
+body{
+    margin: 0%;
+    background-color: #333;
+}
 
 img{
     width: 500px;
@@ -37,13 +41,6 @@ ol{
     font-size: 20px;
     margin: 2px 25% 0px 25%;    
 }
-
-ul{
-    margin:80px;
-    font-size: 20px;
-}
-
-
 
 .tesla{
     margin: 50px;
@@ -72,6 +69,7 @@ footer {
     color: rgb(63, 49, 3);
     background-color: #ffffff;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.7s ease;
+    margin: 5px;
 }
 .botao:hover{
     background-color: rgb(187, 187, 187);
@@ -90,7 +88,7 @@ span{
 
 .backgroundImage{
     position: relative;
-    background-image: url(../img/Fundo.jpeg);
+    background-image: url(../img/Fundo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -102,3 +100,9 @@ span{
     background-color: burlywood;
     text-align: center;
 }
+.ulnav{
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+}
+
