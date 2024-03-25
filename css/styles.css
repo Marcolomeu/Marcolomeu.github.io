@@ -3,7 +3,7 @@ h1{
     font-size: 75px;
     margin: 50px;
     font-family: Courier;
-    color: rgb(0, 0, 0);
+    color: #f8fc03
 }
 
 h2{
@@ -11,10 +11,11 @@ h2{
     font-size: 75px;
     margin: 50px;
     font-family: Courier;
+    color: #f8fc03;
 }
 body{
     margin: 0%;
-    background-color: #2e2b21;
+    background-color: #000000;
 }
 
 img{
@@ -23,25 +24,25 @@ img{
     display: block;
     border: 2px solid black;
 }
-
 p{
     margin: 70px;
     font-size: 30px;
     margin: 50px 25% 100px 25%;
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
+    color: #f8fc03;
 }
-
 a{
     margin: 100px 25% 100px 25%;
 }
-
 ol{
     margin:80px;
     font-size: 20px;
     margin: 2px 25% 0px 25%;    
 }
-
+div{
+    margin-top: 10px;
+}
 .tesla{
     margin: 50px;
     margin: auto;
@@ -64,17 +65,17 @@ footer {
 }
 
 .botao{
-    border: solid 1px rgb(167, 167, 167);
-    border-radius: 20px;
-    color: rgb(63, 49, 3);
-    background-color: #ffffff;
+    border: solid 1px rgb(82, 5, 62);
+    border-radius: 40px;
+    color: rgb(82, 3, 134);
+    background-color: #f8fc03;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.7s ease;
     margin: 5px;
 }
 
 .botao:hover{
-    background-color: rgb(187, 187, 187);
-    color: white;
+    background-color: rgb(207, 221, 11);
+    color: rgb(63, 2, 50);
     transform: scale(1.5)
 }
 
@@ -95,21 +96,19 @@ span{
     background-attachment: fixed;
     margin-bottom: 50px;
 }
-
 .fundo{
     margin: 0% 15% 0% 15%;
-    background-color: burlywood;
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
-
-.ulnav{
-    list-style-type: none;
-    display: flex;
-    text-align: right;
-}
-
 ul{
     list-style-type: none;
-    font-size: 20px;
+    color: #f8fc03;
+    font-size: 30px;
 }
-
+.Navegador{
+    text-align: center;
+}
+.aNavegador{
+    margin: 10px;
+}
