@@ -64,20 +64,19 @@ footer {
 }
 
 .botao{
-    border: solid 1px #000000;
+    border: solid 1px rgb(82, 5, 62);
     border-radius: 40px;
-    color: #000000;
-    background-color: #ffffff;
+    color: rgb(82, 3, 134);
+    background-color: #f8fc03;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.7s ease;
     margin: 5px;
 }
 
 .botao:hover{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: rgb(207, 221, 11);
+    color: rgb(63, 2, 50);
     transform: scale(1.5)
 }
-
 span{
     font-weight: bold;
 }
@@ -98,7 +97,7 @@ span{
 }
 .fundo{
     margin: 0% 15% 0% 15%;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(170, 170, 170);
     text-align: center;
 }
 ul{
@@ -109,7 +108,6 @@ ul{
 }
 .Navegador{
     text-align: center;
-}
-.aNavegador{
-    margin: 10px;
+    margin: 0%;
+    font-size: 13px;
 }
